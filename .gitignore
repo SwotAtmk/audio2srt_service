@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 运行时数据：日志、pid、上传文件、SRT 输出、任务元数据
+data/
+models/
+
+# 本地中间产物（测试音频/视频、截图、脚本草稿）
+2026-11-06/audio2srt-api/work/
+.screenshots/
+
+# 音视频测试素材
+*.mp3
+*.wav
+*.m4a
+*.aiff
+*.aif
+*.flac
+*.mp4
+*.mov
+*.mkv
+
+# 日志与系统文件
+*.log
+*.pid
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
